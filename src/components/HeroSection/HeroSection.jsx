@@ -13,7 +13,7 @@ const HeroSection = () => {
 			<div className="hero_left">
 				<div className="helper_title"> - We can be</div>
 				<div className="cachy_title">
-					Your Reason <div className='flex'>For <div className='smile'>Smile</div><img src={sparkles} alt="" /></div>
+					Your Reason <div className='flex'>For <div className='smile'>Suck</div><img src={sparkles} alt="" /></div>
 				</div>
 				<div className="description">
 					Medchain is a decentralized platform that allows patients to store their medical records and share them with doctors and other medical institutions. Have privacy!
