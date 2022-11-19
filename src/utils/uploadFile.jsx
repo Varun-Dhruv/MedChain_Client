@@ -18,8 +18,6 @@ export const uploadFile = (file, user, account) => {
     reader.onloadend = async () => {
         const buff = window.Buffer(reader.result)
         const result = await IPFS.add(buff)
-        //console.log(result)
-        // setLoading(true)  //Set state to loading
         if (file.type === '') {  //Assign value for the file without extension
             file.type = 'none'
         }
